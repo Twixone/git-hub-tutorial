@@ -1,0 +1,142 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: url('belka.jpg');
+    /*background: url('https://img.lovepik.com/element/40054/1939.png_1200.png') no-repeat #ddeea5 center top;*/
+}
+
+#header {color: red}
+
+#header_1 {color: gold}
+
+h3.style {color: darkslategray}
+
+p.style {background-color: ghostwhite}
+
+p i {color: linen;}
+
+p.example, b {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p#example:first-line {color: #e7943b ;}
+
+.href {color: blue;}
+.href:hover {color: red;}
+
+p:hover {background-color: blue;}
+p:active {color: gold;}
+
+.href:active{color: gold}
+.href:visited{color: ghostwhite}
+
+#textStyles:hover {background-color: red;}
+
+p {
+    text-indent: 1.1em; отступ
+}
+
+#textStyles {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: Comic Sans MS sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+#textStyles span {text-transform: none}
+
+#testBlock {
+    border: 2px dotted silver;
+    border-bottom: 3px dashed red;
+    height: 300px;
+    width: 500px;
+    background-color: gold;
+    margin: 10px 10px 10px 10px;
+    padding-left: 100px;
+    border-radius: 25px;
+    float: right;
+    position: relative;
+    z-index: 0;
+}
+
+hr {
+    color: blue;
+
+    background-color: red;
+}
+
+header {
+    width: calc(100% - 50%);
+    height: 50px;
+    float: left;
+    background-color: #fff;
+    border-bottom: 2px solid silver;
+    border-top: 2px solod silver;
+    border-radius: 5px;
+    padding-left: 50%;
+    color: #333;
+    font-family: "Comic Sans MS";
+
+}
+
+article, aside {
+    background-color: #f7f7f7;
+    min-height: 500px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: red;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+}
+
+article{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    clear: right;
+
+}
+
+aside {
+    width: 29%;
+    position: relative;
+}
+
+aside ol {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+    list-style-image: url("");
+
+
+}
+
+footer {
+    width: calc(100% - 50%);
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid silver;
+    border-top: 2px solod silver;
+    border-radius: 5px;
+    padding-left: 50%;
+    color: #333;
+    font-family: "Comic Sans MS";
+}
+
+.spanBlock {
+    display: block;
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid red;
+    overflow: auto;
+}
